@@ -1,0 +1,87 @@
+$primary: #f58634;
+$secondary: #d4d4d4;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.body {
+  background-color: #d4d4d4;
+}
+.title {
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.img-hero {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.menu {
+  position: absolute;
+  bottom: -40px;
+  left: -3px;
+  height: auto;
+  background-color: white;
+}
+.option {
+  padding: 24px;
+  margin-right: 10px;
+}
+
+.bc-item {
+  gap: 60px;
+}
+
+.img-items-wrapper {
+  position: relative;
+}
+
+.img-items {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.love-top {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #fff;
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.rect-top {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+}
+
+.rect-top-blog {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+}
